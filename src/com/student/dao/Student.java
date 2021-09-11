@@ -1,10 +1,12 @@
-package com.student;
+package com.student.dao;
 
 public class Student implements Comparable<Student> {
-	int no;
-	String name;
-	int age;
-
+	// Properties
+	private int no;
+	private String name;
+	private int age;
+	
+	// Constructor
 	public Student() {}
 	public Student(int no, String name, int age) {
 		super();
